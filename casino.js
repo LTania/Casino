@@ -181,12 +181,6 @@ class SuperUser extends User{
 }
 
 
-//let g = new GameMachine(500);
-//let u = new User("RR", 1000);
-//u.play(g, 100);
-//console.log(u.money);
-//let s = new SuperUser("d", 1000);
-
 function PlayCasino(){
 	let paragraph = document.getElementById("infoAboutGame");
 	
