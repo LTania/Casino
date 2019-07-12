@@ -51,7 +51,7 @@ class GameMachine {
 			}else{
 				alert("Sorry! Try again!");
 				this.number+=sum;
-				return 0;
+				return sum*(-1);
 			}
 		}
 	}
@@ -88,7 +88,7 @@ class User {
 	play(gameMach, sum){
 		if(sum>this.money)alert("Sorry. You don`t have enough money");
 		else{
-			this.money -=sum;
+//			this.money -=sum;
 			this.money += gameMach.play(sum);
 		}
 	}
